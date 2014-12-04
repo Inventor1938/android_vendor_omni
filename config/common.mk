@@ -74,3 +74,6 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/omni/overlay/common
 ifeq ($(ROM_BUILDTYPE),NIGHTLY)
     WITH_DEXPREOPT := true
 endif
+
+# Squisher Location
+SQUISHER_SCRIPT := vendor/omni/tools/squisher
